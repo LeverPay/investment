@@ -32,7 +32,7 @@ const Facilitate = () => {
                 </div>
                 <div className='port-wallet'>
                     <img src="/images/Portfolio-5.png" alt="" />
-                    <img src="/images/home-stock.png" alt="" /> 
+                    <img src="/images/Home-Stock.png" alt="" /> 
                 </div>
             </main>
         </div>
