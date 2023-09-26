@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    padding: 20px 1rem;
+    justify-content: space-between;
+}
+nav button{
+    background-color: #175ADC;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+@media (max-width:620px){
+    nav img{
+        width: 130px;
+        height: 30px;
+        object-fit: contain;
+    }
+}

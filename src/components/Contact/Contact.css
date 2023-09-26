@@ -1,0 +1,33 @@
+.contact{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+.contact p{
+    margin-top:  2rem;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 700;
+}
+.contact a{
+    text-decoration: none;
+    color: #175ADC;
+    font-weight: 400;
+}
+.contact span{
+    font-weight: 400;
+}
+@media (max-width:620px){
+    .contact h1{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    .contact p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0;
+    }
+}

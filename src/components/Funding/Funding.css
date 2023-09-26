@@ -1,0 +1,36 @@
+.funding{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.funding main:nth-child(1) img{
+    width: 600px;
+}
+.funding main:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.funding h1{
+    font-size: 30px;
+    color: white;
+}
+@media (max-width:620px){
+    .funding{
+        flex-direction: column-reverse;
+    }
+    .funding main:nth-child(1) img{
+        width: 300px;
+    }
+    .funding main:nth-child(2) img{
+        width: 300px;
+        display: none;
+    }
+    .funding h1{
+        font-size: 22px;
+        margin-bottom: -1rem;
+    }
+}
