@@ -17,7 +17,7 @@ const Facilitate = () => {
         <div style={{backgroundColor: '#051D57'}} className='facilitate-seamless'>
             <main>
                 <div>
-                <img src="/images/icon.png" alt="" />
+                <img src="/images/seam.png" alt="" />
                 <h1>
                     Seamless Transactions 
                 </h1>
@@ -32,7 +32,7 @@ const Facilitate = () => {
                 </div>
                 <div className='port-wallet'>
                     <img src="/images/Portfolio-5.png" alt="" />
-                    <img src="/images/home-stock-0.png" alt="" /> 
+                    <img src="/images/home-stock.png" alt="" /> 
                 </div>
             </main>
         </div>
@@ -40,7 +40,7 @@ const Facilitate = () => {
         <section className='inclusion'>
             <main>
                 <div>
-                <img src="/images/icon1.png" alt="" />
+                <img src="/images/inc.png" alt="" />
                 <h1>
                     Supporting FInancial Inclusion 
                 </h1>
