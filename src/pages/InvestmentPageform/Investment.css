@@ -71,7 +71,7 @@
   font-family: 'Agrandir-Regular';
 
 }
-.investment form label .i-visible-blind{
+.i-visible-blind{
   position: absolute;
   right: 2%;
   opacity: .7;
@@ -192,6 +192,12 @@
   }
 }
 @media (max-width: 620px) {
+  .i-visible-blind{
+    position: absolute;
+    right: 2%;
+    opacity: .7;
+    top: 45% !important;
+  }
   .investmentPageForm {
     width: 100%;
     /* margin-top: 3rem; */
