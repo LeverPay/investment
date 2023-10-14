@@ -244,7 +244,7 @@ const CheckoutTransfer = ({ amount, checkoutData, vat, txfee, prevStep, nextStep
                                 <h3 style={{textAlign: 'center'}}>
                                     Account number expired 
                                 </h3>
-                                <Link className='acct_btn'>
+                                <Link to='/' className='acct_btn'>
                                     Go back
                                 </Link>
                                 </>
