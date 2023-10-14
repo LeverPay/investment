@@ -1,0 +1,349 @@
+.checkoutTransfer{
+    /* border: 2px solid; */
+    padding: 10px 32px;
+    display: flex;
+    gap: 5%;
+}
+.checkoutTransfer .acct{
+    width: 60%;
+    /* border: 1px solid; */
+}
+.checkoutTransfer .investForm label{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0;
+    gap: 10px;
+    font-family: Agandir;
+    font-size: 20px;
+    position: relative;
+    align-items: start;
+    width: 100%;
+}
+.checkoutTransfer .investForm .reminder{
+    font-size: 10px;
+    color: #FF0000;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
+.checkoutTransfer .investForm .narratCopy{
+    position: absolute;
+    right: 12%;
+    bottom: -150%;
+}
+.checkoutTransfer #cpyNalrt{
+    bottom: -30%;
+    font-size: 10px;
+}
+.checkoutTransfer .investForm input{
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #082E88;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+.checkoutTransfer .investForm input::placeholder{
+    font-size: '10px'
+}
+.checkoutTransfer .acct main{
+    width: 95%;
+    margin-top: 2rem;
+}
+.checkoutTransfer .acct main .screenshot{
+    width: 90%;
+    font-size: 12px;
+    display: flex;
+    color: #0051FF;
+}
+.checkoutTransfer .acct_dur{
+    font-size: 12px;
+    text-align: center !important;
+    font-weight: 800;
+    color: #FF0000;
+}
+.checkoutTransfer .acct_btn{
+    background-color:  none !important;
+    color: #129346;
+    font-family: 'Agrandir-regular';
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    font-weight: 800;
+}
+.checkoutTransfer .ChckTrfSub{
+    width: 90%;
+    background-color: #0051FF;
+    border: none;
+    padding-block: 10px;
+    color: white;
+    font-family: 'Agrandir-regular';
+    font-size: 16px;
+    border-radius: 5px;
+}
+.checkoutTransfer .brkdwn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #F3ECEC;
+    border-radius: 40px;
+    height: fit-content;
+    margin-top: 3rem;
+    width: 30%;
+}
+.checkoutTransfer .brkdwn .orderbrkdwn{
+    border-bottom: 2px dotted #0051FF;
+    padding: 10px;
+}
+.checkoutTransfer .brkdwn .orderbrkdwn h2{
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    font-weight: 800;
+}
+.checkoutTransfer .brkdwn .orderbrkdwn ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    padding: 0pc 20px;
+}
+.checkoutTransfer .brkdwn .orderbrkdwn ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #0051FF;
+    font-weight: 700;
+}
+.checkoutTransfer .brkdwn .orderbrkdwn ul li strong{
+    color: black;
+    width: 40%;
+}
+.checkoutTransfer .brkdwn .payAmt{
+    padding: 0px 20px;
+}
+.checkoutTransfer .brkdwn .payAmt h2{
+    font-size: 18px;
+    color: #FF0000;
+    font-weight: 700;
+}
+.checkoutTransfer .brkdwn .payAmt h1{
+    font-size: 22px;
+    font-weight: 800;
+}
+.checkoutTransfer .brkdwn .payAmt h1 span{
+    color: #0051FF;
+}
+.checkoutTransfer .brkdwn .bckOver{
+    text-align: center;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    transform: translateY(1rem);
+    font-family: Agrandir;
+    font-weight: 900;
+    line-height: 26px;
+    color: #0051FF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* cherckout */
+
+.checkoutTransferForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    font-weight: 500;
+    font-family: Agrandir;
+}
+.checkoutTransferForm label{
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+.checkoutTransferForm label input{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #082E88;
+    padding: 5px;
+}
+
+.FundingNaira{
+    padding-block: 2rem;
+    margin-left: 1rem;
+  }
+  .FundingNaira h1{
+    font-family: 'Agrandir-bold';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .FundingNaira .transferC{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+  .FundingNaira .transferC div{
+    font-family: 'Agrandir-Regular';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    border-radius: 20px 0 20px 0; 
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding-block: 10px;
+  }
+  .FundingNaira .transferC :nth-child(1){
+    background-color: #329521;
+  }
+  .FundingNaira .transferC :nth-child(2){
+    background-color: #f49b09;
+  }
+  .FundingBankTransfer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    border: 4px solid rgb(221, 208, 208);
+    border-radius: 20px;
+    padding-block: 10px;
+  }
+  .FundingBankTransfer h3{
+    font-size: 16px;
+    font-family: 'Agrandir-bold';
+    color: #329521;
+  }
+  .FundingBankTransfer small{
+    font-family: 'Agrandir-bold';
+  }
+  .FundingBankTransfer .acctnoCopy{
+    width: 20px;
+  }
+  .FundingBankTransfer #copyAlert{
+    font-size: 12px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .FundingNairaBank{
+    padding-block: 1rem;
+  }
+  .FundingNairaBank h1{
+    color: #172C63;
+    font-family: 'Agrandir-bold';
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  .FundingNairaBank main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: hsla(0, 0%, 85%, .4);
+    padding: 20px 15px;
+    border-radius: 15px;
+    padding-bottom: 3rem;
+  }
+  .FundingNairaBank main div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+    /* border: 1px solid; */
+  }
+  .FundingNairaBank main h3{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .FundingNairaBank main h4{
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .FundingNairaBank main select{
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: 0px;
+  }
+  .FundingNairaBank main select option{
+    padding: 10px;
+    font-weight: 700;
+    color: #172C63;
+  }
+  .FundingNairaBank .bnkInfo{
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+  }
+  .FundingNairaBank .bnkInfo h4{
+    margin-left: -.7rem;
+  }
+  .FundingNairaBank button{
+    background-color: #129346;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .Funding_confirm_cancel{
+    display: flex;
+    gap: 0px;
+    padding-bottom: 2rem;
+  }
+  .Funding_confirm_cancel button{
+    width: 45%;
+    border-radius: 4px;
+    border: none;
+  }
+  
+@media (max-width: 620px){
+    .checkoutTransfer{
+        flex-direction: column-reverse;
+        padding: 10px 32px;
+        gap: 5rem;
+    }
+    .checkoutTransfer .brkdwn{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .checkoutTransfer .brkdwn .payAmt h2{
+        font-size: 16px;
+    }
+    .checkoutTransfer .brkdwn .payAmt h1{
+        font-size: 18px;
+    }
+    .checkoutTransfer .acct{
+        width: 100%;
+    }
+    .checkoutTransfer .investForm{
+        width: 100%;
+    }
+    .checkoutTransfer .investForm input{
+        width: 100%;
+    }
+    .checkoutTransfer .investForm .narratCopy{
+        right: 4%;
+    }
+    .checkoutTransfer .acct main{
+        width: 100%;
+    }
+    .checkoutTransfer .investForm .reminder{
+        bottom: -250%;
+    }
+    .checkoutTransfer .ChckTrfSub{
+        width: 100%;
+    }
+}
