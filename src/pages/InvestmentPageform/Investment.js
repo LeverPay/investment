@@ -183,7 +183,7 @@ const Investment = () => {
                             Middle Name :
                             <input
                                 type='text'
-                                required={true}
+                                required={false}
                                 name='middlename'
                                 onChange={handleChange}
                                 value={formData.middlename}
@@ -209,9 +209,17 @@ const Investment = () => {
                         </label>
                         <label id='dob'>
                             Date of Birth
-                            <span>
-                                <DatePicker selected={DOB} onChange={(date) => setDOB(date)} wrapperClassName="datePicker" />
-                            </span>
+                            
+                                
+                                <input
+                                type='date'
+                                required={true}
+                                selected={DOB} onChange={(date) => setDOB(date)}
+                                name='DOB'
+                               
+                                value={formData.date}
+                            />
+                           
                         </label>
 
                         <label>
@@ -281,9 +289,8 @@ const Investment = () => {
                             <img alt="" src={isvisible ? "/images/blind.png" : "/images/visible.png"} onClick={toggleVisible} className="i-visible-blind" />
                         </label>
                         <small>{info}</small>
-                        <br />
-                        <br />
-                        <small id='investAmts'>Please set the amount in multiple of #1,000 or $1</small>
+                        
+                        <small id='investAmts'>Please set the amount in multiple of #1,000</small>
                         <label>
                             Amount
                             <input
@@ -292,7 +299,7 @@ const Investment = () => {
                                 name='amount'
                                 onChange={handleChange}
                                 value={formData.amount}
-                                placeholder='Minimum of #5,000 or $10'
+                                placeholder='Minimum of #5,000'
                                 min={5000}
 
                             />
@@ -306,7 +313,7 @@ const Investment = () => {
                                 required={true}
                             />
                             <small>
-                                We are NDPR compliant. By proceeding with this application, you agreeto the storage and usage of your data by LSETF in accordance with our privacy policy.
+                                We are NDPR compliant. By proceeding with this application, you agree to the storage and usage of your data by Leverpay in accordance with our <a href="https://leverpay.io/privacy-policy">privacy policy</a>.
                             </small>
                         </div>
                         <div className='btns'>

@@ -76,7 +76,7 @@ const CheckoutTransfer = ({ amount, checkoutData, vat, txfee, prevStep, nextStep
         fullname: '',
         email: '',
         txid: '',
-        narration: '',
+        //narration: '',
         Bank_name: 'Providus Bank',
         fileImg: fileImg,
         imginfo: imgfile,
@@ -109,7 +109,7 @@ const CheckoutTransfer = ({ amount, checkoutData, vat, txfee, prevStep, nextStep
     // }, [])
 
     const investData = {
-        narration: formData.narration,
+        //narration: formData.narration,
         Bank_name: formData.Bank_name,
         fileImg: formData.fileImg,
         imginfo: formData.imgfile,
@@ -161,39 +161,13 @@ const CheckoutTransfer = ({ amount, checkoutData, vat, txfee, prevStep, nextStep
                             // placeholder='Levinv0378'
                             />
                         </label>
-                        <label>
-                            Transaction reference:
-                            <input
-                                type='text'
-                                name='txid'
-                                value={formData.txid}
-                                onChange={handleChange}
-                            // placeholder='Levinv0378'
-                            />
-                        </label>
+                        
                     </form>
                 }
                 {
                     !isInvest && <div className='investForm'>
-                        <label htmlFor='narration'>
-                            Narration Code
-                            <span className='reminder'>
-                                Please use this code as your narration when making the transfer
-                            </span>
-                            <span className='narratCopy' onClick={copyNarration} >
-                                <img alt='copy' src='/images/copy.png' />
-                            </span>
-                            <span className='narratCopy' id='cpyNalrt' > 
-                                {ncopyAlert}
-                            </span>
-                        </label>
-                        <input
-                            type='text'
-                            name='narration'
-                            value={formData.narration}
-                            onChange={handleChange} 
-                        // placeholder='Levinv0378'
-                        />
+                       
+                        
                     </div>
                 }
 
@@ -204,7 +178,7 @@ const CheckoutTransfer = ({ amount, checkoutData, vat, txfee, prevStep, nextStep
                         {
                                 !acct_exp && <>
                             <div><h3>Account Name: </h3>  <h4>{account_name ? account_name : ''}</h4></div>
-                            <div><h3>Bank Name </h3>
+                            <div><h3>Bank Name: </h3>
                             <h4>
                                 Providus Bank 
                             </h4>
@@ -268,10 +242,10 @@ const CheckoutTransfer = ({ amount, checkoutData, vat, txfee, prevStep, nextStep
                             Order Number <strong>223456</strong>
                         </li>
                         <li>
-                            Product <strong>Shares</strong>
+                            Product <strong>iPhone X</strong>
                         </li>
                         <li>
-                            Invest Amount <strong>NGN {amount}</strong>
+                            Amount <strong>NGN {amount}</strong>
                         </li>
                         <li>
                             VAT <strong>NGN {vat}</strong>
