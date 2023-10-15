@@ -16,7 +16,7 @@ const Growth = () => {
                                 Minimal Investment
                             </h1>
                             <p>
-                                You don’t need a fortune to be part of Leverpay exciting journey The minimum investment amount is #5000 or $10, payable in either Naira or Stablecoin. We believe in inclusivity, and your investment no matter the size, is vital to our success.
+                                You don’t need a fortune to be part of Leverpay exciting journey The minimum investment amount is #5000, payable in either Naira or Stablecoin. We believe in inclusivity, and your investment no matter the size, is vital to our success.
                             </p>
                         </div>
                     </article> 
